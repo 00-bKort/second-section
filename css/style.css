@@ -1,0 +1,22 @@
+.section-brands{
+    padding: 2.5rem 0 !important;
+
+}
+
+.box-logo {
+    background-color: transparent;
+    overflow: hidden;
+    height: 40px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-logo > a > img {
+    filter: grayscale(100%);
+}
+
+.box-logo > a > img:hover {
+    filter: grayscale(0%);
+}
